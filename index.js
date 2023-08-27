@@ -1,17 +1,17 @@
 // Task 1
-
+// Even and Odd numbers check
 var a = 4;
 function number_check(){if(a%2 ==0){return "Even Number"}else{return "Odd Number"}}
 console.log(number_check());
 
 // Task 2
-
+// Not a number return if not number
 var b = 2;
 function check_type(){if(isNaN(b)){return "Not a number"}else{return "Number"}}
 console.log(check_type());
 
 // Task 3
-
+// Find largest number
 var num1 = 20;
 var num2 = 30;
 
@@ -29,7 +29,7 @@ function largest(){
 console.log(largest());
 
 // Task 4
-
+// Find largest numbers
 var num3 = 20;
 var num4 = 30;
 var num5 = 40;
@@ -52,6 +52,7 @@ function largest2(){
 console.log(largest2());
 
 // Task 5
+// Triangle
 var sides = [20,40,30]
 function equilateral(){
     var a = 0;
@@ -78,7 +79,7 @@ function equilateral(){
 console.log(equilateral())
 
 // Task 6
-
+// Calculator
 function add(a,b){
     return a+b;
 }
@@ -117,7 +118,7 @@ console.log(operations(2,2,"-"));
 
 
 // Task 7
-
+// Checking Grades
 function grades(grade){
 if (grade >= 80 && grade <= 100) {
     return "S Grade"
@@ -144,6 +145,7 @@ else{
 console.log(grades(20));
 
 // Patterns  Task 8
+// Star Pattern
 var pattern = 5;
 for(var i = 0; i <= 5; i++){
     console.log("<br>");
@@ -153,7 +155,7 @@ for(var i = 0; i <= 5; i++){
 }
 
 // Task 9
-
+// Sum of two arrays
 var arr1 = [2,3,3,4];
 var arr2 = [23,4,5,1];
 var ar1 = 0;
@@ -174,7 +176,7 @@ var f_sum = sum1()+sum2();
 console.log("Final Sum is "+f_sum);
 
 // Task 10
-
+// Print Even Numbers to 100
 for(var i = 1; i <= 100; i++){
     if(i%2 == 0){
         console.log("Even Numbers "+i);
@@ -183,6 +185,7 @@ for(var i = 1; i <= 100; i++){
 
 // Task 11
 
+// Reversing the array
 var core_arr = [1,2,3,4,5,6];
 var rev_arr = [];
 var j = 0;
